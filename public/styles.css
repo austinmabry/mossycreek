@@ -94,14 +94,14 @@ h2 { font-size: clamp(2rem, 4vw, 2.8rem); }
 /* ===== Hero ===== */
 .hero {
   position: relative;
-  min-height: 470px;
+  min-height: 520px;
   background: var(--forest);
   overflow: hidden;
   display: flex; align-items: center;
 }
 .hero-photo {
-  position: absolute; inset: 0 0 0 38%;
-  background: url("/images/hero-bag.jpg") center / cover no-repeat;
+  position: absolute; inset: 0 0 0 30%;
+  background: url("/images/hero-bag.jpg") 65% 60% / cover no-repeat;
 }
 .hero-photo::before {
   content: ""; position: absolute; inset: 0;
@@ -155,8 +155,9 @@ h2 { font-size: clamp(2rem, 4vw, 2.8rem); }
 /* ===== Find Us ===== */
 .find-us {
   position: relative; text-align: center;
-  padding: 80px 24px 150px;
-  background: linear-gradient(180deg, #f4d9a8 0%, #f0c486 40%, #e2a463 75%, #b9774a 100%);
+  padding: 90px 24px;
+  background: linear-gradient(180deg, #23301ca6, #23301c8c), url("/images/barn.jpg") center 70% / cover no-repeat;
+  color: #fbf8f0;
   overflow: hidden;
 }
 .find-us-inner { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; }
@@ -164,7 +165,10 @@ h2 { font-size: clamp(2rem, 4vw, 2.8rem); }
 .hours > div { background: #fbf6ea; padding: 22px 20px; box-shadow: 0 6px 18px #00000020; }
 .hours h3 { text-transform: uppercase; letter-spacing: .25em; font-size: .85rem; font-family: var(--serif); font-weight: 600; color: var(--green-dark); }
 .hours p { margin: 0; }
-.treeline { position: absolute; left: 0; bottom: 0; width: 100%; height: 120px; fill: #2b2a1f; }
+.find-us h2 { text-shadow: 0 2px 10px #0006; }
+.find-us .rule { background: #fbf8f0; }
+.find-us .eyebrow { color: #fbf8f0; text-shadow: 0 1px 6px #0008; }
+.hours > div { color: var(--ink); }
 
 /* ===== Contact ===== */
 .contact { padding: 90px 0; }
@@ -187,7 +191,7 @@ h2 { font-size: clamp(2rem, 4vw, 2.8rem); }
   .site-header { position: static; }
 
   .hero { min-height: 0; flex-direction: column; align-items: stretch; }
-  .hero-photo { position: relative; inset: auto; height: 300px; order: 2; }
+  .hero-photo { position: relative; inset: auto; height: 300px; order: 2; background-position: 70% 60%; }
   .hero-photo::before { background: linear-gradient(180deg, var(--forest) 0%, #23301c00 35%); }
   .hero-text { padding: 48px 24px 32px; }
 

@@ -12,6 +12,7 @@ It's a plain HTML/CSS site with no build step. Everything the site serves is in 
   - `hero-bag.jpg`: the big top photo
   - `william-charlotte.jpg`: the "Our Story" photo
   - `pecan-bowl.jpg`: the "Our Pecans" photo
+  - `barn.jpg`: the "Find Us" background
 
 Commit and push to `main` and Cloudflare will publish the change in about a minute.
 
