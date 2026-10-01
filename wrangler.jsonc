@@ -1,0 +1,6 @@
+{
+  // Cloudflare config: serve the static site in ./public
+  "name": "mossycreek",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public" }
+}
