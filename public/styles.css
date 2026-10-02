@@ -80,7 +80,6 @@ h2 { font-size: clamp(2rem, 4vw, 2.8rem); }
 .nav .icons { display: flex; gap: 1rem; margin-left: .6rem; }
 .nav .icons a { border: 0; padding: 0; }
 .nav .icons svg { width: 24px; height: 24px; fill: none; stroke: var(--green-dark); stroke-width: 1.7; }
-.nav .icons svg .fill { fill: var(--green-dark); stroke: none; }
 
 .logo-link { align-self: start; height: 84px; margin-top: 8px; border: 0 !important; padding: 0 !important; }
 .logo-link img {
